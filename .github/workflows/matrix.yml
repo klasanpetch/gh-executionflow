@@ -12,7 +12,7 @@ jobs:
             operating-system: [ubuntu-latest, windows-latest]
         exclude:
           - node-version: 12
-            operation-system: ubuntu-latest
+            operating-system: ubuntu-latest
     runs-on: ${{ matrix.operating-system }}
     steps:
       - name: Get Code
